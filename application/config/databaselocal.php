@@ -48,14 +48,14 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = getenv('OPENSHIFT_MYSQL_DB_HOST');
-$db['default']['username'] = getenv('OPENSHIFT_MYSQL_DB_USERNAME');
-$db['default']['password'] = getenv('OPENSHIFT_MYSQL_DB_PASSWORD');
-$db['default']['database'] = getenv('OPENSHIFT_GEAR_NAME');
+$db['default']['hostname'] = 'localhost';
+$db['default']['username'] = 'root';
+$db['default']['password'] = '';
+$db['default']['database'] = 'ronak';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
-$db['default']['db_debug'] = FALSE;
+$db['default']['db_debug'] = TRUE;
 $db['default']['cache_on'] = FALSE;
 $db['default']['cachedir'] = '';
 $db['default']['char_set'] = 'utf8';
